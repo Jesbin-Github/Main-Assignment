@@ -3,39 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Non-Profit Organization</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css"> <!-- Ensure this path is correct -->
+    <title>Contact Us - Helping Hands</title>
 </head>
 <body>
     <header>
-        <div class="logo">Non-Profit Logo</div>
-        <nav>
+        <nav class="navbar">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="donation.html" class="donate-btn">Donate</a></li>
+                <li><a href="donation.html">Donation</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="contact">
-            <h1>Contact Us</h1>
-            <form action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-details">
+                <div class="contact-card">
+                    <h3>Address</h3>
+                    <p>123 Helping Hands Ave<br>Suite 456<br>Cityville, ST 78901</p>
+                </div>
+                <div class="contact-card">
+                    <h3>Phone</h3>
+                    <p><a href="tel:+11234567890">(123) 456-7890</a><br><a href="tel:+10987654321">(098) 765-4321</a></p>
+                </div>
+                <div class="contact-card">
+                    <h3>Email</h3>
+                    <p><a href="mailto:contact@helpinghands.org">contact@helpinghands.org</a><br><a href="mailto:support@helpinghands.org">support@helpinghands.org</a></p>
+                </div>
+            </div>
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
             </form>
-        </section>
-    </main>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2023 Non-Profit Organization. All rights reserved.</p>
-        <p>Contact us at: info@nonprofit.org</p>
+        <p>&copy;  Jesbin Jobi</p>
     </footer>
 </body>
 </html>
