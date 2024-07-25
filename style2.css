@@ -17,6 +17,8 @@ header {
     background-color: white;
     color: #fff;
     padding: 1rem 0;
+   
+
     
 }
 .navbar {
@@ -123,12 +125,55 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+/* Footer Styles */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #1a1a1a;
+    color: #ededed;
+    padding: 2rem 0;
     text-align: center;
-    padding: 1rem 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 1rem;
+}
+
+.footer-section h3 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 0.5rem 0;
+}
+
+.footer-section ul li a {
+    color: #ededed;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #00ABF0;
+}
+
+.footer-bottom {
+    margin-top: 1rem;
+    border-top: 1px solid #333;
+    padding-top: 1rem;
+    color: #bbb;
+}
+
+
