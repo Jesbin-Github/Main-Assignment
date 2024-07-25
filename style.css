@@ -43,6 +43,12 @@ body {
     animation-delay: .3s;
 }
 
+.navbar{
+    background: white;
+    width: 75vh;
+    align-items: center;
+    border-radius: 10px;
+}
 
 .navbar a{
     font-size: 18px;
