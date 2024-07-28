@@ -105,8 +105,13 @@ header{
     text-align: left;
     border-radius: 20px;
 }
+.grid-container a{
+    text-decoration: none;
+}
+
 .red{
     background-color: #418fde;
+    text-decoration: none;
 }
 .green{
 background-color: #00AB3E;
