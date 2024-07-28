@@ -12,6 +12,10 @@ header{
     align-items: center;
 }
 
+.navbar{
+    width: 80vh;
+}
+
 .services {
     display: flex;
     justify-content: center;
@@ -104,6 +108,7 @@ header{
     color: #fff;
     text-align: left;
     border-radius: 20px;
+    height: 60vh;
 }
 .grid-container a{
     text-decoration: none;
