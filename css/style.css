@@ -314,7 +314,7 @@ ul a{
 }
 
 .logo {
-    background-image: url(".png");
+    background-image: url("../img/.png");
     background-size: cover;
     height: 50px;
     width: 100px;
@@ -367,7 +367,7 @@ padding-top: 25px;
 .history-section{
     
     height: 101vh;
-    background-image: url(2ndone.jpg);
+    background-image: url("../img/2ndone.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -378,7 +378,7 @@ padding-top: 25px;
 .need{
     font-size: 22px;
     height: 101vh;
-    background-image: url(need.jpg);
+    background-image: url("../img/need.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -404,7 +404,7 @@ padding-top: 25px;
 .donor{
     font-size: 22px;
     height: 101vh;
-    background-image: url(serving.jpg);
+    background-image: url("../img/serving.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
